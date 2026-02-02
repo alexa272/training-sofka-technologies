@@ -1,40 +1,33 @@
-# WorkShop5_TutorialNodeJS
+# Workshop5_TutorialNodeJS
 
-### Autora: Alexandra Santa Muñoz
+### Author: Alexandra Santa Muñoz
 
-En este repositorio se desarrolla el ejercicio tutorial nodeJS
+This repository contains the NodeJS tutorial exercise.
 
-# Como ejecutar el programa:
-Realizar la descarga del proyecto, dentro de su IDE favorito ingresar al terminal y ejecutar los siguientes comandos:
+# How to run the program:
+Download the project. In your favorite IDE, open the terminal and run the following commands:
 
-1. Ingresar a esta carpeta:
+1. Navigate to this folder:
 ```
 cd express-locallibrary-tutorial
 ```
-
-2. para instalar la carpeta node modules que contiene todas las dependencias instaladas de su proyecto, ingresar el siguiente codigo:
-
+2. To install the node modules folder, which contains all the installed dependencies for your project, enter the following code:
 ```
 npm install
 ```
+3. To run the page, enter this code:
 
-3. Para poner a correr la pagina ingresar este codigo:
-
-# En WINDOWS, use este comando:
+# On Windows, use this command:
 
 ```
-
 SET DEBUG=express-locallibrary-tutorial:* | npm start
-
 ```
-# En macOS o Linux, use este comando:
+# On macOS or Linux, use this command:
 ```
 DEBUG=express-locallibrary-tutorial:* npm start
 ```
 
-4. En el navegador de su preferencia ingresar a la siguiente dirección:
-
+4. In your preferred browser, go to the following address:
 ```
 http://localhost:3000/users/cool/
-
 ```

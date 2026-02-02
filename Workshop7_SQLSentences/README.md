@@ -1,45 +1,45 @@
-# Taller7_SQL
+# Workshop7_SQL
 
-# TALLER DE SQL: SENTENCIAS BÁSICAS Y SETUP
+# SQL WORKSHOP: BASIC STATEMENTS AND SETUP
 
-## Autora: [@Alexandra-Santa-Muñoz](https://www.linkedin.com/in/asamu10/)
+## Author: [@Alexandra-Santa-Muñoz](https://www.linkedin.com/in/asamu10/)
 
-En este repositorio se desarrolla el tema de sentencias basicas y setup en SQL, el repositorio contiene los siguientes archivos:
+This repository covers basic SQL statements and setup. It contains the following files:
 
 **Script1.sql**
-
 **Script2.sql**
 
-
-# DESCRIPCION DE ARCHIVOS DEL REPOSITORIO:
+# FILE DESCRIPTIONS:
 **script1.sql**
-En este archivo se realizan los siguientes procesos:
+This file performs the following processes:
 
 ```
-1. Se crean y relacionan las siguientes tablas store, supplier, product, customer, sales invoice
-2. Se insertan datos para todas las tablas.
-3. Se Realizan dos borrados lógicos y dos borrados físicos de la tabla de ventas realizadas.
-4. Se modifican tres productos en campos de nombre y proveedor
+1. The following tables are created and linked: store, supplier, product, customer, and sales invoice.
 
+2. Data is inserted into all tables.
+
+3. Two logical deletes and two physical deletes are performed on the sales invoice table.
+````
+
+4. Three products are modified in the name and supplier fields.
 ```
-
 **script2.sql:**
-En este archivo se realizan los siguientes procesos:
-
+The following processes are performed in this file:
 ```
-1. Se realiza consulta SQL para obtener los productos vendidos digitando tipo y número de documento.
-2. Se realiza consulta productos por medio del nombre, el cual muestra quienes han sido los proveedores.
-3. Se crea consulta que me permite ver qué producto ha sido el más vendido y sus cantidades validando 
-de mayor a menor.
+1. An SQL query is executed to obtain the products sold by entering the document type and number.
+
+2. A query is executed for products by name, which displays the suppliers.
+
+3. A query is created that allows me to see which product has been the best-selling and its quantities, validating from highest to lowest.
 ```
 
-# COMO ABRIR EL ARCHIVO:
-## PRIMERA FORMA:
-1. Abrir el editor de código de su eleccion:
-2. file
-3. Abrir y selecciona el archivo script1.sql o script2.sql
+# HOW TO OPEN THE FILE:
+## FIRST METHOD:
+1. Open your preferred code editor:
+2. File menu
+3. Open and select the script1.sql or script2.sql file.
 
-## SEGUNDA FORMA:
-1. Sobre el archivo script1.sql o script2.sql hacemos clic derecho abrir
-2. Selecciona el editor de codigo de su preferencia
-3. y listo
+## SECOND METHOD:
+1. Right-click on the script1.sql or script2.sql file and select Open.
+2. Select your preferred code editor.
+3. Done.
