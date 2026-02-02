@@ -1,155 +1,190 @@
-# WorkShop4_modelingObjects
+# Workshop4_modelingObjects
 
-### Autora: Alexandra Santa Muñoz
+### Author: Alexandra Santa Muñoz
 
-En este repositorio se desarrolla el tema de modelado de objetos en Java. Contiene en primer instancia los siguientes paquetes:
-- com.exercise1.
-- com.exercise2.
-- com.exercise3.
-- com.exercise4.
-- com.exercise5.
-- com.exercise6.
+This repository covers object modeling in Java. It initially contains the following packages:
+- com.exercise1
 
-## DESCRIPCION DE PAQUETES DEL REPOSITORIO:
+- com.exercise2
 
-## PACKAGE: com.exercise1: 
+- com.exercise3
 
-En este paquete se realiza un ejercicio donde se implementa un sistema planetario que consta de dos cuerpos celestes (luna y sol), tres escombros interplanetarios y cuatro planetas entre los cuales se calcula fuerza de atraccion gravitacional, se utilizaron métodos get y set para obtener y establecer los atributos declarados, estas son las clases creadas para el sistema planetario:
+- com.exercise4
+
+- com.exercise5
+
+- com.exercise6
+
+
+## REPOSITORY PACKAGE DESCRIPTION:
+
+## PACKAGE: com.exercise1:
+
+This package contains an exercise implementing a planetary system consisting of two celestial bodies (the moon and the sun), three interplanetary objects, and four planets. The gravitational attraction between these planets is calculated. Get and set methods were used to obtain and set the declared attributes. These are the classes created for the planetary system:
 
 ```
-Planet.java, Planet1.java, Planet2.java, Planet3.java, Planet4.java, Meteorite.java, Moon.java, Sun.java, Asteroide.java, 
-Comet.java y MainApp.java
+Planet.java, Planet1.java, Planet2.java, Planet3.java, Planet4.java, Meteorite.java, Moon.java, Sun.java, Asteroide.java, Comet.java, and MainApp.java
 ```
 
-Se utilizo el siguiente método en todas las clases:
+The following method was used in all classes:
 
 **showData():**
 ```
-Método para mostrar informacion de sistema planetario.
-```
-Adicionalmente, Se utilizo el siguiente método en las clases que extienden de la clase abstracta Planet.java:
+Method to display information about the planetary system.
 
-**calForceAttraction():** 
+```` ```
+Additionally, the following method was used in the classes that extend the abstract class Planet.java:
+
+**calForceAttraction():**
 ```
-Método para calcular fuerza de atracción.
+Method to calculate force of attraction.
 ```
 
 ## PACKAGE: com.exercise2:
 
-**Respuesta pregunta 2:**
+**Answer to question 2:**
 
-¿Es posible ejecutar un programa en java que contenga varias clases con métodos main? En caso positivo, ¿cómo se determina el punto de entrada a un programa?
+Is it possible to run a Java program that contains several classes with main methods? If so, how is the entry point to a program determined?
 
-Si es posible ejecutarlo, pero suceden varias cosas:
+It is possible to run it, but several things happen:
 ```
-1. cuando se da clic en la flecha de la parte superior del IDE la que normalmente se utiliza para correr 
-el programa, la clase con metodo main que primero se ejecuta es la clase creada por defecto con este metodo, 
-es decir la primera clase creada.
+1. When you click on the arrow at the top of the IDE, which is normally used to run the program, the class with a main method that is executed first is the class created by default with this method, that is, the first class created.
 
-2. las otras tambien funcionan pero se tiene que dar clic derecho en cada una y decirle run file para que 
-ejecute con su respectivo metodo main.
+2. The others also work, but you have to right-click on each one and select "Run File" for it to execute with its respective main method.
 
-3. cuando se da clic derecho, run en el paquete donde estan creadas las clases, el archivo que ejecuta es 
-la clase creada por defecto con este metodo, es decir la primera clase creada.
 
-Para resolver esta pregunta se crearon dos clases:
-Ex2.java y Exercise2.java, se adjuntan en paquete com.exercise2.
+```` 3. When you right-click and select "Run" in the package where the classes are created, the file that is executed is the default class created with this method, that is, the first class created.
+
+To answer this question, two classes were created:
+Ex2.java and Exercise2.java, which are included in the com.exercise2 package.
+
+## PACKAGE: com.exercise3: This exercise involves two of the most commonly used sorting algorithms: bubble sort and quicksort.
+
+***BubbleSortAlgorithm***
+
+_PROCESSES:_
+1. Declaration of attributes and array creation
+2. A for loop iterates through the array containing random numbers
+3. A for loop applies the bubble sort method.
+
+4. In a for loop to display the sorted data
 ```
+***QuickSortAlgorithm***
+```
+_PROCESSES:_
+1. Declaration of attributes and array creation.
 
-## PACKAGE: com.exercise3:
-En este ejercicio se realizan dos de los mas utilizados organizmos de ordenamiento, algoritmo de ordenamiento burbuja y ordenamiento quickSort.
+2. Random array traversal
+3. The first value is taken as the pivot.
 
-***AlgoritmoBurbuja***
-```
-_PROCESOS:_
-1. Declaracion de atributos y creacion de array
-2. en un bucle for se realiza el recorrido de array que contiene numeros aleatorios
-3. en un bucle for para aplicar el metodo de la burbuja.
-4. en un bucle for para mostrar los datos ordenados
-```
-***AlgoritmoQuickSort*** 
-```
-_PROCESOS:_
-1. Declaracion de atributos y creacion de array.
-2. recorrido de array aleatorio
-3. Se toma como pivote el primer valor.
-4. Se definen los dos lados y un auxiliar
+4. The two sides and an auxiliary array are defined
 ```
 ## PACKAGE: com.exercise4:
 
-En este ejercicio vamos a desarrollar una clase para mostrar los datos de los objetos pertenecientes a la clase ferry y la creacion de vehiculos tipo ferry, se utilizaron métodos get y set para obtener y establecer los atributos declarados, adicional se utilizaron los siguientes metodos en estas tres clases:
+In this exercise, we will develop a class to display the data of objects belonging to the ferry class and the creation of ferry-type vehicles. Get and set methods were used to obtain and set the declared attributes. Additionally, the following methods were used in these three classes:
 
-***showListFerry()*** 
+***showListFerry()***
 ```
-Metodo para crear arreglo de ferry.
-```
-***showFerry()*** 
-```
-Metodo para mostrar datos de ferry.
-```
+Method to create the ferry array.
 
-***CreateVehicle()*** 
 ```
-Metodo para creación de vehiculos.
+***showFerry()***
 ```
-***turnOn()*** 
+Method to display ferry data.
+
 ```
-Método para validar vehiculo encendido.
 ```
-***turnOff()*** 
 ```
-Método para validar vehiculo apagado.
 ```
-***accelerate()*** 
 ```
-Método para validar aceleracion de vehiculo.
 ```
-***brake()*** 
 ```
-Método para validar frenado de vehiculo.
 ```
+``` ```
+
+***CreateVehicle()***
+```
+Method for creating vehicles.
+
+``
+***turnOn()***
+```
+Method to validate that the vehicle is on.
+
+``
+***turnOff()***
+```
+Method to validate that the vehicle is off.
+
+``
+***accelerate()***
+```
+Method to validate that the vehicle is accelerating.
+
+``
+***brake()***
+```
+Method to validate that the vehicle is braking.
+
+```
+```
+```
+```
+```
+```
+```
+```
+```
+``` ```
 
 ## PACKAGE: com.exercise5:
 
-En este ejercicio se ha diseñado una clase vehiculo la cual ha sido diseñada para generar distintos medios de transporte como son motocicletas, bicicletas, trenes, helicopteros, se utilizaron métodos get y set para obtener y establecer los atributos declarados, adicional se utilizaron los siguientes metodos en las diferentes clases:
+In this exercise, a vehicle class was designed to generate different means of transportation such as motorcycles, bicycles, trains, and helicopters. Get and set methods were used to obtain and set the declared attributes. Additionally, the following methods were used in the different classes:
 
-***showData()*** 
+***showData()***
 ```
-Método para mostrar datos de vehiculo.
+Method to display vehicle data.
+
+``
+***mainFeatures()***
 ```
-***mainFeatures()*** 
+Method to display class characteristics.
+
+``
+***turnOn()***
 ```
-Método para mostrar caracteristicas de clase.
-```    
-***turnOn()*** 
+Method to validate that the vehicle is on.
+
+``
+***turnOff()***
 ```
-Método para validar vehiculo encendido.
-```    
-***turnOff()*** 
+Method to validate that the vehicle is off.
+
+``
+***accelerate()***
 ```
-Método para validar vehiculo apagado.
-```     
-***accelerate()*** 
+Method to validate the motorcycle's acceleration.
+
 ```
-Método para validar aceleracion de motocicleta.
 ```
-***brake():*** 
 ```
-Método para validar frenado de vehiculo.
+```
+```
+```
+```
+```
+``` ```
+***brake():***
+```
+Method to validate vehicle braking.
 ```
 
 ## PACKAGE: com.exercise6:
 
-En este ejercicio se verifica si un numero que se introduce por teclado esta repetido. Este paquete contiene dos clases la clase MainApp.java que se utiliza para instanciar y mostrar la información del programa y la clase RepeatNumber.java que es la encargada de hacer las validaciones y encontrar el numero repetido, para ello se utiliza el siguiente metodo:
+This exercise checks if a number entered from the keyboard is repeated. This package contains two classes: the MainApp.java class, used to instantiate and display program information, and the RepeatNumber.java class, which is responsible for performing the validations and finding the repeated number. The following method is used for this purpose:
 
-***repeatNumber():*** El cual realiza las siguientes validaciones:
+***repeatNumber():*** This method performs the following validations:
 ```
-1. Solicita el numero de espacios que va a tener el vector.
-2. Recorre el vector hasta la el final de su longitud.
-3. Mediante un if se valida la longitud del array, si es = 0 significa que no tiene espacio 
-se sale del programa
-4. Cuando la variable z sea igual a la longitud del programa imprime todo si no se ha cumplido 
-la condicion del numero repetido
-5. De modo contrario si esta repetido entonces imprime numero repetido e imprime la longitud 
-completa del arreglo.
-```
+1. Requests the number of spaces the vector will have.
+
+2. Iterates through the vector.
