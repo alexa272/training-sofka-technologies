@@ -1,0 +1,60 @@
+/**
+* Archivo diseñado para dar descripción de los estilos CSS utilizados en el código
+*
+* @version [1.0.0 2023-05-09, este archivo corresponde a versión 1 del sistema,
+*                             no se ha realizado ninguna refactorización durante esta versión]
+*
+* @author [Alexandra Santa Muñoz, maalexa24@gmail.com]
+*
+* @since [Versión 1]
+*
+*/
+
+/* Estilo para el cuerpo de la página */
+body {
+  padding: 200px; /* Añade un relleno grande alrededor del contenido */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; /* Define la fuente y el tamaño de fuente predeterminados */
+  text-align: center; /* Centra el texto en el cuerpo */
+  background-image: url(../images/dados.jpg); /* Establece una imagen de fondo */
+  color: brown; /* Define el color de texto como marrón */
+}
+
+/* Estilo para los enlaces (hipervínculos) */
+a {
+  color: #00B7FF; /* Define el color de los enlaces como azul claro */
+}
+
+/* Estilo para los encabezados de nivel 1 (h1) */
+h1 {
+  font-size: 34px; /* Define el tamaño de fuente para h1 */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Establece la fuente para h1 */
+  text-transform: uppercase; /* Convierte el texto en mayúsculas */
+  color: black; /* Define el color del texto de h1 como negro */
+}
+
+/* Estilo para los párrafos (p) */
+p {
+  font-size: medium; /* Define el tamaño de fuente para los párrafos */
+}
+
+/* Estilo para los botones */
+button {
+  width: 200px; /* Define el ancho del botón */
+  height: 100px; /* Define la altura del botón */
+  display: inline-block; /* Hace que los botones se muestren en línea uno al lado del otro */
+  padding: 10px 20px; /* Añade relleno interno al botón */
+  margin: 15px; /* Establece márgenes alrededor del botón */
+  background-color: #C70039; /* Establece el color de fondo del botón */
+  color: #ffffff; /* Define el color del texto del botón como blanco */
+  border: 2px solid #000000; /* Establece un borde sólido de color negro */
+  text-decoration: none; /* Elimina cualquier decoración de texto, como subrayado */
+  font-size: 26px; /* Define el tamaño de fuente para el texto del botón */
+  border-radius: 5px; /* Agrega esquinas redondeadas al botón */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Agrega una transición suave al color de fondo y a la sombra del botón */
+}
+
+/* Efecto de sombra al pasar el cursor sobre el botón */
+button:hover {
+  background-color: #cc0000; /* Cambia el color de fondo al pasar el cursor */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agrega una sombra al botón al pasar el cursor */
+}
