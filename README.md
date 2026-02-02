@@ -85,6 +85,6 @@ Learner
 (https://www.linkedin.com/in/asamu10/)
 
 ## 📅 Date of Completion
-[Year 2022]
+Year 2022
 
 ⭐ If you found this material useful, don't forget to give the repository a star rating.
