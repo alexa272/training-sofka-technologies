@@ -1,67 +1,66 @@
-# Taller de buenas Prácticas de POO
+# OOP Best Practices Workshop
 
-Proyecto reproductor de música utilizando Programación Orientada a Objetos y Buenas prácticas de programación
+Music Player Project Using Object-Oriented Programming and Best Programming Practices
 
 ### MainApp
 
 ```
-Clase Principal desde donde inicia el programa, contiene menú para uso del reproductor de música.
+Main class where the program starts; contains a menu for using the music player.
+
 ```
 
 ### Library
 
 ```
-Clase que hereda métodos y atributos de la clase Song, e implementa métodos de la interfaz IPlayList.
-Método de la showPlayList() para crear una biblioteca de canciones.
+Class that inherits methods and attributes from the Song class and implements methods from the IPlayList interface.
+
 ```
 
 ### PlayListLibrary
 
 ```
-Clase que contiene atributos de una canción. Implementa Interfaz Comparator e Interfaz Comparable para 
-comparar datos del ArrayList y poder ordenar por duración y ordenar por fecha.
-Método compare()
-Método compareTo()
-Método showData() para mostrar información de la canción.
-```
+Class that contains song attributes. Implements the Comparator and Comparable interfaces to compare data from the ArrayList and allow sorting by duration and date.
+` ... ```
 
 ### IPlayList
 
 ```
-Esta interfaz permite definir el método randomMusic() que usará la clase que implemente esta interfaz.
-```
+This interface allows you to define the randomMusic() method that will be used by the class implementing this interface.
+
+``
 
 ### PlayList
 
 ```
-Esta clase ha sido diseñada para poder crear una Playlist a partir de una biblioteca de canciones (Clase Library) 
-Esta clase contiene lo siguiente:
+This class has been designed to create a playlist from a library of songs (Library class). This class contains the following:
 
-name Atributo para definir el nombre de la playList, a la cual se le asignan sus métodos getter y setter.
-ArrayList Que permitira crear una lista de canciones.
-createPlaylist(int id) Método que añade canciones a la lista según el id recibido por parámetro.
-showPL() Método que muestra la información de la playList que se acaba de crear.
+name Attribute to define the name of the playlist, to which its getter and setter methods are assigned.
+
+ArrayList Which will allow you to create a list of songs.
+
+createPlaylist(int id) Method that adds songs to the list according to the id received as a parameter.
+
+showPL() Method that displays the information of the playlist that has just been created.
 
 ```
 
 ### Song
 
 ```
-Esta clase abstracta Song.java ha sido diseñada para crear canciones y para extender, se realiza definición de métodos get 
-y set y se definen los métodos abstractos a implementar: 
-filterGenre() Método abstracto filtrar por genero
-filterYear() Métodos abstracto filtrar por año
-orderDuration() Método abstracto ordenar lista de canciones por Duración
-orderDate() Método abstracto ordenar lista de canciones por fecha
+This abstract class, Song.java, has been designed to create and extend songs. It defines getter and setter methods and the following abstract methods to be implemented:
+filterGenre() Abstract method to filter by genre
+filterYear() Abstract method to filter by year
+orderDuration() Abstract method to order a list of songs by duration
+orderDate() Abstract method to order a list of songs by date
 ```
 
 ### GenreEnum
 
 ```
-Clase Enumerador por genero, Contiene los géneros musicales de las canciones.
+Genre Enum class. Contains the musical genres of the songs.
+
 ```
 
+## Authors
 
-## Autoras
-
-* **Alexandra Santa Muñoz** - **Valentina Santa Muñoz** - *Codificación y Documentación* -
+* **Alexandra Santa Muñoz** - **Valentina Santa Muñoz** - *Coding and Documentation* -
