@@ -87,6 +87,4 @@ Learner
 ## 📅 Date of Completion
 [Year 2022]
 
-
-
-⭐ Si este material te fue útil, no olvides darle una estrella al repositorio
+⭐ If you found this material useful, don't forget to give the repository a star rating.
