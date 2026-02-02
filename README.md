@@ -28,38 +28,59 @@ The training included weekly activities focused on:
 ## 📚 Workshop Content
 
 ### Workshop 1 - Classes and Objects
+
 **Duration:** 8 hours
+
 **Description:** This workshop covers the topic of class and object modeling in Java.
+
 📁 [View workshop](./Workshop1_classesAndObject)
 
 ### Workshop 2 - AbstractionAnd Polymorphism
+
 **Duration:** 8 hours
+
 **Description:** This repository develops the topic of design and programming: Abstractions, interfaces and polymorphism.
+
 📁 [View workshop](./Workshop2_AbstractionAndPolymorphism)
 
 ### Workshop 3 - Good Practices OOP
+
 **Duration:** 7 hours
+
 **Description:** This repository develops the Music player project using Object-Oriented Programming and good programming practices
+
 📁 [View workshop](./Workshop3_GoodPracticesOOP)
 
 ### Workshop 4 - Modeling Objects
+
 **Duration:** 8 hours
+
 **Description:** This repository covers object modeling in Java.
+
 📁 [View workshop](./Workshop4_modelingObjects)
 
 ### Workshop 5 - Tutorial NodeJS
+
 **Duration:** 9 hours
+
 **Description:** This repository contains the NodeJS tutorial exercise.
+
 📁 [View workshop](./Workshop5_TutorialNodeJS)
 
 ### Workshop 6 - Dynamic Page
+
 **Duration:** 9 hours
+
 **Description:** This repository contains the dynamic page exercise in NodeJS. It's a dice game for multiple players.
+
 📁 [View workshop](./Workshop6_dynamicPage)
 
 ### Workshop 7 - SQL Sentences
+
 **Duration:** 9 hours
+
 **Description:** This repository covers basic SQL statements and setup. It contains the following files
+
 📁 [View workshop](.//Workshop2_AbstractionAndPolymorphism)
 
 ## 💻 Installation
