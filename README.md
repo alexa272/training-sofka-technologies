@@ -38,44 +38,29 @@ The training included weekly activities focused on:
 📁 [View workshop](./Workshop2_AbstractionAndPolymorphism)</br>
 
 ### Workshop 3 - Good Practices OOP
-
-**Duration:** 7 hours
-
-**Description:** This repository develops the Music player project using Object-Oriented Programming and good programming practices
-
-📁 [View workshop](./Workshop3_GoodPracticesOOP)
+**Duration:** 7 hours</br>
+**Description:** This repository develops the Music player project using Object-Oriented Programming and good programming practices.</br>
+📁 [View workshop](./Workshop3_GoodPracticesOOP)</br>
 
 ### Workshop 4 - Modeling Objects
-
-**Duration:** 8 hours
-
-**Description:** This repository covers object modeling in Java.
-
-📁 [View workshop](./Workshop4_modelingObjects)
+**Duration:** 8 hours.</br>
+**Description:** This repository covers object modeling in Java.</br>
+📁 [View workshop](./Workshop4_modelingObjects)</br>
 
 ### Workshop 5 - Tutorial NodeJS
-
-**Duration:** 9 hours
-
-**Description:** This repository contains the NodeJS tutorial exercise.
-
-📁 [View workshop](./Workshop5_TutorialNodeJS)
+**Duration:** 9 hours.</br>
+**Description:** This repository contains the NodeJS tutorial exercise.</br>
+📁 [View workshop](./Workshop5_TutorialNodeJS)</br>
 
 ### Workshop 6 - Dynamic Page
-
-**Duration:** 9 hours
-
-**Description:** This repository contains the dynamic page exercise in NodeJS. It's a dice game for multiple players.
-
-📁 [View workshop](./Workshop6_dynamicPage)
+**Duration:** 9 hours.</br>
+**Description:** This repository contains the dynamic page exercise in NodeJS. It's a dice game for multiple players.</br>
+📁 [View workshop](./Workshop6_dynamicPage)</br>
 
 ### Workshop 7 - SQL Sentences
-
-**Duration:** 9 hours
-
-**Description:** This repository covers basic SQL statements and setup. It contains the following files
-
-📁 [View workshop](.//Workshop2_AbstractionAndPolymorphism)
+**Duration:** 9 hours.</br>
+**Description:** This repository covers basic SQL statements and setup. It contains the following files.</br>
+📁 [View workshop](.//Workshop2_AbstractionAndPolymorphism)</br>
 
 ## 💻 Installation
 ```bash
