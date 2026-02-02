@@ -35,13 +35,10 @@ The training included weekly activities focused on:
 
 📁 [View workshop](./Workshop1_classesAndObject)
 
-### Workshop 2 - AbstractionAnd Polymorphism
-
-**Duration:** 8 hours
-
-**Description:** This repository develops the topic of design and programming: Abstractions, interfaces and polymorphism.
-
-📁 [View workshop](./Workshop2_AbstractionAndPolymorphism)
+### Workshop 2 - AbstractionAnd Polymorphism</br>
+**Duration:** 8 hours</br>
+**Description:** This repository develops the topic of design and programming: Abstractions, interfaces and polymorphism.</br>
+📁 [View workshop](./Workshop2_AbstractionAndPolymorphism)</br>
 
 ### Workshop 3 - Good Practices OOP
 
