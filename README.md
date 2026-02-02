@@ -28,14 +28,11 @@ The training included weekly activities focused on:
 ## 📚 Workshop Content
 
 ### Workshop 1 - Classes and Objects
+**Duration:** 8 hours</br>
+**Description:** This workshop covers the topic of class and object modeling in Java.</br>
+📁 [View workshop](./Workshop1_classesAndObject)</br>
 
-**Duration:** 8 hours
-
-**Description:** This workshop covers the topic of class and object modeling in Java.
-
-📁 [View workshop](./Workshop1_classesAndObject)
-
-### Workshop 2 - AbstractionAnd Polymorphism. </br>
+### Workshop 2 - AbstractionAnd Polymorphism.
 **Duration:** 8 hours</br>
 **Description:** This repository develops the topic of design and programming: Abstractions, interfaces and polymorphism.</br>
 📁 [View workshop](./Workshop2_AbstractionAndPolymorphism)</br>
